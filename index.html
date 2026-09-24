@@ -1,0 +1,1473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary SEO Meta Tags -->
+  <title>GlowNest | Glow Naturally. Feel Confident. | Premium Skincare & Beauty</title>
+  <meta name="title" content="GlowNest | Glow Naturally. Feel Confident. | Premium Skincare & Beauty">
+  <meta name="description" content="Discover GlowNest - your everyday destination for gentle, clean, and radiant skincare. Shop Vitamin C Serums, Sunscreens, Moisturizers, Cleansers, and Beauty Combos.">
+  <meta name="keywords" content="skincare products, beauty products, face serum, moisturizer, sunscreen, online beauty store, clean skincare, GlowNest">
+  <meta name="author" content="GlowNest Beauty">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://glownest.com/">
+  <meta property="og:title" content="GlowNest - Glow Naturally. Feel Confident.">
+  <meta property="og:description" content="Shop clean, dermatologist-tested skincare essentials designed to give your skin a natural, luminous glow.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=1200&q=80">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..800;1,400..800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Icons for crisp beauty & e-commerce UI -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar (Promotional Marketing) -->
+  <aside class="announcement-bar" aria-label="Announcement">
+    <div class="container announcement-content">
+      <span>✨ <strong>GLOW WEEK IS LIVE:</strong> Get Up to 30% OFF + Extra 10% with code <strong>GLOW10</strong> | Free Delivery on all prepaid orders! ✨</span>
+    </div>
+  </aside>
+
+  <!-- Sticky Main Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      
+      <!-- Brand Logo -->
+      <a href="#home" class="nav-brand" aria-label="GlowNest Home">
+        <div class="brand-symbol">
+          <i class="fa-solid fa-spa"></i>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">GlowNest</span>
+          <span class="brand-subtitle">Glow Naturally. Feel Confident.</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-menu" id="navMenu" aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#shop" class="nav-link">Shop</a></li>
+          <li><a href="#categories" class="nav-link">Categories</a></li>
+          <li><a href="#bestsellers" class="nav-link">Best Sellers</a></li>
+          <li><a href="#offers" class="nav-link">Offers</a></li>
+          <li><a href="#beautytips" class="nav-link">Beauty Tips</a></li>
+          <li><a href="#creators" class="nav-link">Creators</a></li>
+          <li><a href="#about" class="nav-link">About Us</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Utilities -->
+      <div class="nav-actions">
+        <!-- Search trigger -->
+        <button type="button" class="icon-btn" id="searchTriggerBtn" title="Search Products" aria-label="Search Products">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+
+        <!-- Wishlist Button -->
+        <button type="button" class="icon-btn" id="wishlistTriggerBtn" title="Wishlist" aria-label="Wishlist">
+          <i class="fa-regular fa-heart"></i>
+          <span class="badge" id="wishlistCount">0</span>
+        </button>
+
+        <!-- Cart Button -->
+        <button type="button" class="icon-btn cart-btn" id="cartTriggerBtn" title="Shopping Cart" aria-label="Shopping Cart">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span class="badge" id="cartCount">0</span>
+        </button>
+
+        <!-- Add Product Button (Admin feature) -->
+        <button type="button" class="btn btn-primary btn-sm add-product-nav-btn" id="openAddProductModalBtn">
+          <i class="fa-solid fa-plus"></i>
+          <span>Add Product</span>
+        </button>
+
+        <!-- Mobile Hamburger -->
+        <button type="button" class="hamburger-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main>
+    
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="hero-backdrop-glow"></div>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-pill">
+            <i class="fa-solid fa-sparkles"></i> 100% Clean, Vegan & Cruelty-Free
+          </div>
+          <h1 class="hero-title">
+            Discover Your <span class="highlight-text">Natural Glow</span>
+          </h1>
+          <p class="hero-subheading">
+            Premium skincare and beauty essentials crafted with gentle botanicals and high-performance actives for your everyday radiance.
+          </p>
+          <div class="hero-actions">
+            <a href="#shop" class="btn btn-primary btn-lg">
+              <span>Shop Now</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="#categories" class="btn btn-outline btn-lg">
+              <span>Explore Categories</span>
+            </a>
+          </div>
+
+          <!-- Trust Badges -->
+          <div class="hero-trust-badges">
+            <div class="trust-item">
+              <i class="fa-solid fa-leaf"></i>
+              <div>
+                <strong>Clean Botanicals</strong>
+                <p>Paraben & Toxin Free</p>
+              </div>
+            </div>
+            <div class="trust-item">
+              <i class="fa-solid fa-hand-holding-heart"></i>
+              <div>
+                <strong>Dermatologist Tested</strong>
+                <p>Safe for Sensitive Skin</p>
+              </div>
+            </div>
+            <div class="trust-item">
+              <i class="fa-solid fa-award"></i>
+              <div>
+                <strong>4.8 / 5 Rating</strong>
+                <p>Over 25,000+ Glowers</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1608248597359-216956272db9?auto=format&fit=crop&w=1000&q=80" alt="GlowNest Luxury Skincare Collection" class="hero-main-img">
+            
+            <!-- Floating Highlights -->
+            <div class="hero-float-card float-top-right">
+              <div class="float-icon"><i class="fa-solid fa-droplet"></i></div>
+              <div>
+                <strong>Vitamin C Glow</strong>
+                <span>+98% Luminosity</span>
+              </div>
+            </div>
+
+            <div class="hero-float-card float-bottom-left">
+              <div class="float-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <strong>Top Pick for Gen-Z</strong>
+              <span>Gentle & Budget-Friendly</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Categories Section -->
+    <section class="section categories-section" id="categories">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Curated Collections</span>
+          <h2 class="section-title">Featured Categories</h2>
+          <p class="section-subtitle">Targeted solutions for your skin, hair, body, and beauty routine</p>
+        </div>
+
+        <div class="categories-grid" id="featuredCategoriesGrid">
+          <!-- 9 Clickable Category Cards from specs -->
+          <button type="button" class="category-card" data-category="Cleansers & Face Wash">
+            <div class="category-img-box">
+              <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=600&q=80" alt="Cleansers & Face Wash">
+            </div>
+            <div class="category-details">
+              <h3>Cleansers & Face Wash</h3>
+              <span>Purify & Refresh</span>
+            </div>
+          </button>
+
+          <button type="button" class="category-card" data-category="Serums">
+            <div class="category-img-box">
+              <img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=600&q=80" alt="Face Serums">
+            </div>
+            <div class="category-details">
+              <h3>Serums</h3>
+              <span>Targeted Actives</span>
+            </div>
+          </button>
+
+          <button type="button" class="category-card" data-category="Moisturizers">
+            <div class="category-img-box">
+              <img src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=600&q=80" alt="Moisturizers">
+            </div>
+            <div class="category-details">
+              <h3>Moisturizers</h3>
+              <span>Deep Hydration</span>
+            </div>
+          </button>
+
+          <button type="button" class="category-card" data-category="Sunscreen">
+            <div class="category-img-box">
+              <img src="https://images.unsplash.com/photo-1567928815104-b631d86d52ee?auto=format&fit=crop&w=600&q=80" alt="Sunscreen">
+            </div>
+            <div class="category-details">
+              <h3>Sunscreen</h3>
+              <span>SPF 50+ Invisible Shield</span>
+            </div>
+          </button>
+
+          <button type="button" class="category-card" data-category="Face Care">
+            <div class="category-img-box">
+              <img src="https://images.unsplash.com/photo-1512290900672-1f5be50702d7?auto=format&fit=crop&w=600&q=80" alt="Face Care & Masks">
+            </div>
+            <div class="category-details">
+              <h3>Face Care</h3>
+              <span>Masks, Toners & Scrubs</span>
+            </div>
+          </button>
+
+          <button type="button" class="category-card" data-category="Makeup">
+            <div class="category-img-box">
+              <img src="https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=600&q=80" alt="Clean Makeup">
+            </div>
+            <div class="category-details">
+              <h3>Makeup</h3>
+              <span>Lips, Glow & Lashes</span>
+            </div>
+          </button>
+
+          <button type="button" class="category-card" data-category="Hair Care">
+            <div class="category-img-box">
+              <img src="https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=600&q=80" alt="Hair Care">
+            </div>
+            <div class="category-details">
+              <h3>Hair Care</h3>
+              <span>Nourish & Strengthen</span>
+            </div>
+          </button>
+
+          <button type="button" class="category-card" data-category="Body Care">
+            <div class="category-img-box">
+              <img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=600&q=80" alt="Body Care">
+            </div>
+            <div class="category-details">
+              <h3>Body Care</h3>
+              <span>Smooth & Pamper</span>
+            </div>
+          </button>
+
+          <button type="button" class="category-card" data-category="Combos">
+            <div class="category-img-box">
+              <img src="https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=600&q=80" alt="Beauty Combos">
+            </div>
+            <div class="category-details">
+              <h3>Beauty Combos</h3>
+              <span>Complete Daily Kits</span>
+            </div>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Best Sellers Section -->
+    <section class="section best-sellers-section bg-soft" id="bestsellers">
+      <div class="container">
+        <div class="section-header-flex">
+          <div>
+            <span class="section-tag"><i class="fa-solid fa-crown"></i> Customer Favorites</span>
+            <h2 class="section-title">Best Sellers</h2>
+            <p class="section-subtitle">Our most-loved formulations tested, reviewed, and adored by thousands</p>
+          </div>
+          <a href="#shop" class="btn btn-outline btn-sm">View All Products</a>
+        </div>
+
+        <div class="products-grid best-sellers-grid" id="bestSellersGrid">
+          <!-- Populated by JavaScript with Best Seller badges -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Promotional Offers Section (Promotional Marketing) -->
+    <section class="section offers-section" id="offers">
+      <div class="container">
+        <!-- Big Banner -->
+        <div class="offer-banner">
+          <div class="offer-banner-content">
+            <span class="banner-pill">⚡ Limited Time Promotion</span>
+            <h2>Glow Week – Special Offers</h2>
+            <p class="offer-big-text">Up to <strong>30% OFF</strong> on Everyday Essentials</p>
+            <p class="offer-desc">
+              Get your favorite skincare essentials at special prices. Free deluxe samples with every order above ₹999.
+            </p>
+            <div class="offer-buttons">
+              <a href="#shop" class="btn btn-primary" id="shopOffersBtn">Shop Offers Now</a>
+              <div class="coupon-pill-highlight">Use Code: <strong>GLOW10</strong> for extra 10% OFF</div>
+            </div>
+          </div>
+          <div class="offer-banner-visual">
+            <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80" alt="Glow Week Beauty Kit Promo">
+          </div>
+        </div>
+
+        <!-- 3 Offer Cards -->
+        <div class="offers-cards-grid">
+          <div class="offer-card">
+            <div class="offer-card-tag">Serum Splash</div>
+            <h3>10% OFF on Serums</h3>
+            <p>Infused with Vitamin C, Niacinamide & Hyaluronic Acid for crystal clear skin.</p>
+            <div class="offer-code-copy" onclick="GlowNestApp.copyCoupon('GLOW10')">
+              <span>Code: <strong>GLOW10</strong></span>
+              <i class="fa-regular fa-copy" title="Copy code"></i>
+            </div>
+          </div>
+
+          <div class="offer-card featured-offer">
+            <div class="offer-card-tag hot-tag">Value Saver</div>
+            <h3>20% OFF on Skincare Combos</h3>
+            <p>Save more when you bundle! Perfect for daily morning and night routines.</p>
+            <div class="offer-code-copy" onclick="GlowNestApp.copyCoupon('WELCOME15')">
+              <span>Code: <strong>WELCOME15</strong></span>
+              <i class="fa-regular fa-copy" title="Copy code"></i>
+            </div>
+          </div>
+
+          <div class="offer-card">
+            <div class="offer-card-tag">Student Special</div>
+            <h3>Buy 2 Get 1 Free</h3>
+            <p>Mix & match any lip care, face wash or sheet masks. Applied automatically at checkout.</p>
+            <div class="offer-code-copy">
+              <span>Offer auto-applies on cart</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Complete Shop & Product Catalog Section -->
+    <section class="section shop-section" id="shop">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">All Glow Essentials</span>
+          <h2 class="section-title">Shop Our Collection</h2>
+          <p class="section-subtitle">Explore clean, effective, and cruelty-free formulas crafted for every skin story</p>
+        </div>
+
+        <!-- Search & Control Header -->
+        <div class="shop-controls-wrapper">
+          <div class="shop-search-bar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="productSearchInput" placeholder="Search by name, category, or ingredients (e.g. serum, Vitamin C, SPF)..." aria-label="Search products">
+            <button type="button" id="clearSearchBtn" class="clear-search-btn" title="Clear search" style="display:none;">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </div>
+
+          <div class="shop-admin-quick-action">
+            <button type="button" class="btn btn-secondary btn-sm" id="shopAddProductBtn">
+              <i class="fa-solid fa-plus-circle"></i>
+              <span>+ Add New Product</span>
+            </button>
+            <button type="button" class="btn btn-outline btn-sm" id="resetSampleDataBtn" title="Restore default 20 sample products">
+              <i class="fa-solid fa-rotate-left"></i> Reset Demo Data
+            </button>
+          </div>
+        </div>
+
+        <!-- Category Filter Pills -->
+        <div class="category-pills-bar" id="categoryPillsBar">
+          <button type="button" class="filter-pill active" data-filter="All">All Products</button>
+          <button type="button" class="filter-pill" data-filter="Skincare">Skincare</button>
+          <button type="button" class="filter-pill" data-filter="Makeup">Makeup</button>
+          <button type="button" class="filter-pill" data-filter="Hair Care">Hair Care</button>
+          <button type="button" class="filter-pill" data-filter="Body Care">Body Care</button>
+          <button type="button" class="filter-pill" data-filter="Combos">GlowNest Combos</button>
+        </div>
+
+        <!-- Filter & Sort Sub-bar -->
+        <div class="shop-filter-bar">
+          <div class="filter-group">
+            <label for="subCategoryFilter">Sub-Category:</label>
+            <select id="subCategoryFilter" class="custom-select">
+              <option value="All">All Sub-Categories</option>
+              <!-- Populated dynamically -->
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label for="skinTypeFilter">Skin Type:</label>
+            <select id="skinTypeFilter" class="custom-select">
+              <option value="All">All Skin Types</option>
+              <option value="All Skin Types">All Skin Types</option>
+              <option value="Oily / Acne-Prone">Oily / Acne-Prone</option>
+              <option value="Dry / Dehydrated">Dry / Dehydrated</option>
+              <option value="Sensitive">Sensitive</option>
+              <option value="Normal to Combination">Normal to Combination</option>
+            </select>
+          </div>
+
+          <div class="filter-group price-slider-group">
+            <label for="priceRange">Max Price: <strong id="priceRangeLabel">₹2500</strong></label>
+            <input type="range" id="priceRange" min="100" max="2500" step="50" value="2500">
+          </div>
+
+          <div class="filter-group">
+            <label for="sortBySelect">Sort By:</label>
+            <select id="sortBySelect" class="custom-select">
+              <option value="popular">Most Popular</option>
+              <option value="price-low">Price: Low to High</option>
+              <option value="price-high">Price: High to Low</option>
+              <option value="rating">Highest Rated</option>
+              <option value="discount">Highest Discount</option>
+              <option value="newest">Newest Products</option>
+            </select>
+          </div>
+
+          <button type="button" class="btn btn-ghost btn-sm" id="resetFiltersBtn">
+            <i class="fa-solid fa-arrows-rotate"></i> Reset Filters
+          </button>
+        </div>
+
+        <!-- Result Stats -->
+        <div class="shop-results-info">
+          <span id="resultsCount">Showing 20 products</span>
+          <span class="filter-active-indicator" id="activeFilterIndicator"></span>
+        </div>
+
+        <!-- Product Listing Grid -->
+        <div class="products-grid" id="productsGrid">
+          <!-- Rendered dynamically by script.js -->
+        </div>
+
+        <!-- Empty State -->
+        <div class="empty-products-state" id="emptyProductsState" style="display: none;">
+          <div class="empty-icon"><i class="fa-solid fa-spray-can-sparkles"></i></div>
+          <h3>No products found</h3>
+          <p>We couldn't find any products matching your current filters or search term.</p>
+          <button type="button" class="btn btn-primary" id="emptyStateResetBtn">Clear All Filters</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Beauty Tips / Content Marketing Section -->
+    <section class="section beauty-tips-section bg-soft" id="beautytips">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag"><i class="fa-solid fa-book-open"></i> Skincare Journal</span>
+          <h2 class="section-title">Beauty Tips & Skincare Guides</h2>
+          <p class="section-subtitle">Dermatologist-backed advice to help you build a routine that actually delivers results</p>
+        </div>
+
+        <div class="articles-grid" id="articlesGrid">
+          <!-- 5 Articles from specs -->
+          <article class="article-card">
+            <div class="article-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=600&q=80" alt="5 Steps for a Simple Skincare Routine">
+              <span class="article-badge">Routine 101</span>
+            </div>
+            <div class="article-body">
+              <div class="article-meta">
+                <span><i class="fa-regular fa-clock"></i> 4 min read</span>
+                <span>• Beginner</span>
+              </div>
+              <h3>5 Steps for a Simple Skincare Routine</h3>
+              <p>Overwhelmed by 10-step routines? Discover the five non-negotiable steps to healthy, glowing skin every day.</p>
+              <button type="button" class="btn-read-article" onclick="GlowNestApp.openArticleModal(1)">
+                <span>Read Full Guide</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </article>
+
+          <article class="article-card">
+            <div class="article-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1567928815104-b631d86d52ee?auto=format&fit=crop&w=600&q=80" alt="Why Sunscreen is Important">
+              <span class="article-badge">Sun Protection</span>
+            </div>
+            <div class="article-body">
+              <div class="article-meta">
+                <span><i class="fa-regular fa-clock"></i> 5 min read</span>
+                <span>• Essential</span>
+              </div>
+              <h3>Why Sunscreen is Non-Negotiable Every Day</h3>
+              <p>Rain or shine, indoor or outdoor: learn how daily broad-spectrum SPF prevents 80% of visible premature skin aging.</p>
+              <button type="button" class="btn-read-article" onclick="GlowNestApp.openArticleModal(2)">
+                <span>Read Full Guide</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </article>
+
+          <article class="article-card">
+            <div class="article-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=600&q=80" alt="How to Choose a Serum">
+              <span class="article-badge">Actives Guide</span>
+            </div>
+            <div class="article-body">
+              <div class="article-meta">
+                <span><i class="fa-regular fa-clock"></i> 6 min read</span>
+                <span>• Ingredients</span>
+              </div>
+              <h3>How to Choose the Right Serum for Your Skin</h3>
+              <p>Vitamin C vs. Niacinamide vs. Hyaluronic Acid: decode which active ingredient fixes your specific skin concerns.</p>
+              <button type="button" class="btn-read-article" onclick="GlowNestApp.openArticleModal(3)">
+                <span>Read Full Guide</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </article>
+
+          <article class="article-card">
+            <div class="article-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=600&q=80" alt="Morning vs Night Skincare Routine">
+              <span class="article-badge">Daily Timing</span>
+            </div>
+            <div class="article-body">
+              <div class="article-meta">
+                <span><i class="fa-regular fa-clock"></i> 5 min read</span>
+                <span>• Circadian Care</span>
+              </div>
+              <h3>Morning vs. Night Skincare: What Your Skin Needs</h3>
+              <p>Protect by day, repair by night. Discover how to layer your morning and bedtime formulas without clogging pores.</p>
+              <button type="button" class="btn-read-article" onclick="GlowNestApp.openArticleModal(4)">
+                <span>Read Full Guide</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </article>
+
+          <article class="article-card">
+            <div class="article-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1512290900672-1f5be50702d7?auto=format&fit=crop&w=600&q=80" alt="Skincare Mistakes to Avoid">
+              <span class="article-badge">Expert Advice</span>
+            </div>
+            <div class="article-body">
+              <div class="article-meta">
+                <span><i class="fa-regular fa-clock"></i> 4 min read</span>
+                <span>• Mistakes</span>
+              </div>
+              <h3>Top 7 Skincare Mistakes You Might Be Making</h3>
+              <p>Over-exfoliation, skipping moisturizer on oily skin, and testing too many products at once: fix them immediately.</p>
+              <button type="button" class="btn-read-article" onclick="GlowNestApp.openArticleModal(5)">
+                <span>Read Full Guide</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Influencer Marketing Section ("GlowNest Creators") -->
+    <section class="section creators-section" id="creators">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag"><i class="fa-solid fa-camera-retro"></i> Influencer Collaborations</span>
+          <h2 class="section-title">GlowNest Creators</h2>
+          <p class="section-subtitle">Real skin stories from beauty content creators who swear by our clean formulations</p>
+        </div>
+
+        <div class="creators-grid">
+          <div class="creator-card">
+            <div class="creator-header">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80" alt="Tara Sharma" class="creator-avatar">
+              <div>
+                <h4>Tara Sharma</h4>
+                <span class="creator-handle">@tara.glownotes</span>
+                <div class="creator-badge"><i class="fa-solid fa-circle-check"></i> 185K Followers</div>
+              </div>
+            </div>
+            <p class="creator-quote">
+              “The GlowNest Vitamin C Serum transformed my stubborn acne scars in just 3 weeks. It feels so lightweight under my college makeup!”
+            </p>
+            <div class="creator-fave">
+              <span>Favorite Pick:</span>
+              <button type="button" class="fave-link" onclick="GlowNestApp.viewProductDetails(1)">GlowNest Vitamin C Serum ➜</button>
+            </div>
+          </div>
+
+          <div class="creator-card">
+            <div class="creator-header">
+              <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80" alt="Zoya Merchant" class="creator-avatar">
+              <div>
+                <h4>Zoya Merchant</h4>
+                <span class="creator-handle">@zoyaskinlab</span>
+                <div class="creator-badge"><i class="fa-solid fa-circle-check"></i> 320K Followers</div>
+              </div>
+            </div>
+            <p class="creator-quote">
+              “Zero white cast, non-sticky and wears beautifully under cameras. The GlowNest Sunscreen Gel is genuinely my holy grail SPF.”
+            </p>
+            <div class="creator-fave">
+              <span>Favorite Pick:</span>
+              <button type="button" class="fave-link" onclick="GlowNestApp.viewProductDetails(9)">GlowNest Sunscreen Gel SPF 50 ➜</button>
+            </div>
+          </div>
+
+          <div class="creator-card">
+            <div class="creator-header">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80" alt="Aman Varma" class="creator-avatar">
+              <div>
+                <h4>Aman Varma</h4>
+                <span class="creator-handle">@aman_grooming</span>
+                <div class="creator-badge"><i class="fa-solid fa-circle-check"></i> 95K Followers</div>
+              </div>
+            </div>
+            <p class="creator-quote">
+              “Men's skincare is usually full of heavy fragrance, but GlowNest got it right: clean, calming formulas that keep skin balanced all day.”
+            </p>
+            <div class="creator-fave">
+              <span>Favorite Pick:</span>
+              <button type="button" class="fave-link" onclick="GlowNestApp.viewProductDetails(4)">GlowNest Gentle Face Wash ➜</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Media Marketing Section ("Follow Your Glow") -->
+    <section class="section social-section" id="social">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag"><i class="fa-brands fa-instagram"></i> Digital Community</span>
+          <h2 class="section-title">Follow Your Glow</h2>
+          <p class="section-subtitle">Join 50,000+ beauty lovers on Instagram, TikTok & YouTube. Tag <strong>#GlowNest</strong> to be featured!</p>
+          
+          <!-- Social Icons -->
+          <div class="social-links-bar">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon instagram" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-icon facebook" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-icon youtube" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer" class="social-icon pinterest" title="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+          </div>
+        </div>
+
+        <!-- Instagram Feed Grid -->
+        <div class="social-feed-grid">
+          <div class="social-post-card">
+            <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=500&q=80" alt="GlowNest Instagram Post 1">
+            <div class="post-overlay">
+              <i class="fa-brands fa-instagram"></i>
+              <p>“Your skin deserves some love today ✨”</p>
+              <span class="post-tags">#GlowNest #Skincare #BeautyRoutine</span>
+              <span class="post-likes"><i class="fa-solid fa-heart"></i> 2,420 likes</span>
+            </div>
+          </div>
+
+          <div class="social-post-card">
+            <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=500&q=80" alt="GlowNest Instagram Post 2">
+            <div class="post-overlay">
+              <i class="fa-brands fa-instagram"></i>
+              <p>“Golden hour hits differently when your barrier is healthy ☀️🧴”</p>
+              <span class="post-tags">#CleanBeauty #SPFEveryday</span>
+              <span class="post-likes"><i class="fa-solid fa-heart"></i> 3,891 likes</span>
+            </div>
+          </div>
+
+          <div class="social-post-card">
+            <img src="https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=500&q=80" alt="GlowNest Instagram Post 3">
+            <div class="post-overlay">
+              <i class="fa-brands fa-instagram"></i>
+              <p>“Self-care Sunday essentials all in one aesthetic drawer 🌸”</p>
+              <span class="post-tags">#SelfCareKit #SkinFirst</span>
+              <span class="post-likes"><i class="fa-solid fa-heart"></i> 4,110 likes</span>
+            </div>
+          </div>
+
+          <div class="social-post-card">
+            <img src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=500&q=80" alt="GlowNest Instagram Post 4">
+            <div class="post-overlay">
+              <i class="fa-brands fa-instagram"></i>
+              <p>“Hydration overload with our Hyaluronic Acid gel formula 💧”</p>
+              <span class="post-tags">#GlowNaturally #FeelConfident</span>
+              <span class="post-likes"><i class="fa-solid fa-heart"></i> 1,940 likes</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center social-follow-cta">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+            <i class="fa-brands fa-instagram"></i> Follow @glownestofficial
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Customer Reviews / Testimonials -->
+    <section class="section reviews-section bg-soft" id="reviews">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag"><i class="fa-solid fa-star"></i> Real Results</span>
+          <h2 class="section-title">Loved by Our Glow Community</h2>
+          <p class="section-subtitle">Real experiences from customers who made the switch to GlowNest</p>
+        </div>
+
+        <div class="reviews-grid">
+          <div class="review-card">
+            <div class="review-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="review-title">“The Vitamin C Serum has become my favorite skincare product!”</h4>
+            <p class="review-text">
+              “My dark spots started fading within two weeks of using it every morning. It has zero stickiness and gives an instant glass-skin finish without being oily.”
+            </p>
+            <div class="review-author">
+              <div class="author-avatar">A</div>
+              <div>
+                <strong>Aanya</strong>
+                <span>Verified Buyer • Mumbai</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="review-title">“Beautiful products and an easy shopping experience.”</h4>
+            <p class="review-text">
+              “The website was super smooth to order from, delivery was prompt, and the packaging is so luxurious. The Hydrating Gel Moisturizer is magical on college mornings.”
+            </p>
+            <div class="review-author">
+              <div class="author-avatar">R</div>
+              <div>
+                <strong>Riya</strong>
+                <span>Verified Buyer • Bengaluru</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="review-title">“Finally a sunscreen that leaves no white cast!”</h4>
+            <p class="review-text">
+              “I’ve tried dozens of sunscreens that pill or sting my eyes. GlowNest SPF 50 Gel absorbs instantly like water. I bought 3 backups during the Glow Week sale!”
+            </p>
+            <div class="review-author">
+              <div class="author-avatar">P</div>
+              <div>
+                <strong>Pooja Deshmukh</strong>
+                <span>Verified Buyer • Pune</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-visual">
+            <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=800&q=80" alt="About GlowNest Brand Story" class="about-img-main">
+            <div class="about-badge-card">
+              <span class="badge-num">100%</span>
+              <span class="badge-lbl">Clean & Transparent Ingredients</span>
+            </div>
+          </div>
+
+          <div class="about-content">
+            <span class="section-tag">Our Philosophy</span>
+            <h2 class="section-title">About GlowNest</h2>
+            <p class="about-lead">
+              GlowNest is a modern skincare and beauty brand focused on making everyday skincare simple, accessible, safe, and truly enjoyable.
+            </p>
+            
+            <div class="about-pillars">
+              <div class="pillar-item">
+                <div class="pillar-icon"><i class="fa-solid fa-seedling"></i></div>
+                <div>
+                  <h4>Our Story</h4>
+                  <p>Founded with a mission to eliminate beauty anxiety, GlowNest replaces complicated jargon with science-backed botanicals that work in harmony with your natural skin barrier.</p>
+                </div>
+              </div>
+
+              <div class="pillar-item">
+                <div class="pillar-icon"><i class="fa-solid fa-bullseye"></i></div>
+                <div>
+                  <h4>Our Mission</h4>
+                  <p>To empower youth, students, and beauty lovers to embrace their natural skin with affordable, high-efficacy formulations free from harmful toxins.</p>
+                </div>
+              </div>
+
+              <div class="pillar-item">
+                <div class="pillar-icon"><i class="fa-solid fa-eye"></i></div>
+                <div>
+                  <h4>Our Vision</h4>
+                  <p>Creating an inclusive community where self-care is a daily mindful celebration, celebrating real texture and genuine radiance.</p>
+                </div>
+              </div>
+
+              <div class="pillar-item">
+                <div class="pillar-icon"><i class="fa-solid fa-heart-circle-check"></i></div>
+                <div>
+                  <h4>Why Choose GlowNest?</h4>
+                  <p>Cruelty-free, dermatologically evaluated, recyclable packaging, zero synthetic parabens, and pocket-friendly pricing.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Email Marketing / Newsletter Section -->
+    <section class="section newsletter-section">
+      <div class="container">
+        <div class="newsletter-card">
+          <div class="newsletter-content">
+            <span class="newsletter-pill"><i class="fa-solid fa-gift"></i> Exclusive Perk</span>
+            <h2>Get Your Glow Updates</h2>
+            <p>Subscribe to receive skincare tips, early access to new product drops, and an instant <strong>10% OFF discount coupon</strong> for your first order.</p>
+            
+            <form class="newsletter-form" id="newsletterForm">
+              <div class="input-with-button">
+                <i class="fa-regular fa-envelope input-icon"></i>
+                <input type="email" id="newsletterEmailInput" placeholder="Enter your email address..." required aria-label="Email address for newsletter">
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+              </div>
+              <p class="form-feedback" id="newsletterFeedback" style="display: none;"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="section contact-section bg-soft" id="contact">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">We'd Love to Hear From You</span>
+          <h2 class="section-title">Contact Us</h2>
+          <p class="section-subtitle">Have questions about your skincare routine or order? Our glow experts are here to help!</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Info Column -->
+          <div class="contact-info-card">
+            <h3>Get in Touch</h3>
+            <p>Reach out through any of our direct channels or send us a message through the form.</p>
+
+            <div class="contact-channels">
+              <div class="channel-item">
+                <div class="channel-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div>
+                  <strong>Email Us</strong>
+                  <p>support@glownestbeauty.com</p>
+                  <small>Response within 24 hours</small>
+                </div>
+              </div>
+
+              <div class="channel-item">
+                <div class="channel-icon"><i class="fa-solid fa-phone"></i></div>
+                <div>
+                  <strong>Customer Care</strong>
+                  <p>+91 (080) 4567-GLOW</p>
+                  <small>Mon - Sat: 9:00 AM - 7:00 PM</small>
+                </div>
+              </div>
+
+              <div class="channel-item">
+                <div class="channel-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div>
+                  <strong>Headquarters</strong>
+                  <p>GlowNest Beauty Labs, 4th Floor, Radiance Tower, Indiranagar, Bengaluru 560038</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-social-box">
+              <span>Connect on Social:</span>
+              <div class="social-icons-row">
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://youtube.com" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-pinterest-p"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Form Column -->
+          <div class="contact-form-card">
+            <h3>Send a Message</h3>
+            <form id="contactForm">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contactName">Your Name *</label>
+                  <input type="text" id="contactName" required placeholder="e.g. Ananya Sharma">
+                </div>
+                <div class="form-group">
+                  <label for="contactEmail">Email Address *</label>
+                  <input type="email" id="contactEmail" required placeholder="e.g. ananya@example.com">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contactPhone">Phone Number</label>
+                  <input type="tel" id="contactPhone" placeholder="+91 98765 43210">
+                </div>
+                <div class="form-group">
+                  <label for="contactSubject">Subject *</label>
+                  <select id="contactSubject" required>
+                    <option value="">Select a topic...</option>
+                    <option value="Skincare Consultation">Skincare Consultation / Routine Help</option>
+                    <option value="Order Tracking">Order & Shipping Status</option>
+                    <option value="Returns & Refunds">Returns & Replacements</option>
+                    <option value="Product Feedback">Product Feedback</option>
+                    <option value="Influencer Collaboration">Influencer & Creator Collaboration</option>
+                    <option value="Other">Other Inquiry</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contactMessage">Message *</label>
+                <textarea id="contactMessage" rows="4" required placeholder="Tell us how we can assist your glow..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block">
+                <span>Send Message</span>
+                <i class="fa-regular fa-paper-plane"></i>
+              </button>
+              <p class="form-feedback" id="contactFeedback" style="display: none;"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Professional Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <!-- Brand column -->
+      <div class="footer-col footer-brand-col">
+        <a href="#home" class="footer-brand">
+          <div class="brand-symbol"><i class="fa-solid fa-spa"></i></div>
+          <span class="brand-title">GlowNest</span>
+        </a>
+        <p class="footer-tagline">“Glow Naturally. Feel Confident.”</p>
+        <p class="footer-desc">
+          Science-backed, botanical skincare designed to inspire everyday confidence and healthy, luminous skin.
+        </p>
+        <div class="footer-social-links">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-col">
+        <h4 class="footer-heading">Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#shop">Shop All Products</a></li>
+          <li><a href="#categories">Featured Categories</a></li>
+          <li><a href="#bestsellers">Best Sellers</a></li>
+          <li><a href="#offers">Special Offers</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Customer Service -->
+      <div class="footer-col">
+        <h4 class="footer-heading">Customer Service</h4>
+        <ul class="footer-links">
+          <li><a href="#contact">Shipping Policy</a></li>
+          <li><a href="#contact">Easy Returns & Exchanges</a></li>
+          <li><a href="#contact">Frequently Asked Questions</a></li>
+          <li><a href="#contact">Privacy Policy</a></li>
+          <li><a href="#contact">Terms of Service</a></li>
+          <li><a href="#beautytips">Skincare Routine Finder</a></li>
+        </ul>
+      </div>
+
+      <!-- Digital Marketing Showcase Info -->
+      <div class="footer-col">
+        <h4 class="footer-heading">Digital Marketing Activity</h4>
+        <p class="footer-dm-note">
+          This website is built for a <strong>Digital Marketing & Social Media</strong> course demonstration, showcasing:
+        </p>
+        <ul class="footer-dm-tags">
+          <li><i class="fa-solid fa-check"></i> E-commerce Architecture</li>
+          <li><i class="fa-solid fa-check"></i> On-Page SEO Optimization</li>
+          <li><i class="fa-solid fa-check"></i> Influencer / Creator Marketing</li>
+          <li><i class="fa-solid fa-check"></i> Content Marketing (Beauty Tips)</li>
+          <li><i class="fa-solid fa-check"></i> Email Lead Capturing</li>
+          <li><i class="fa-solid fa-check"></i> Promotional Pricing & Coupons</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Sub Footer -->
+    <div class="footer-bottom">
+      <div class="container footer-bottom-content">
+        <p>© 2026 GlowNest. All Rights Reserved. Crafted with love for radiant skin.</p>
+        <div class="payment-methods-icons">
+          <span title="UPI Accepted"><i class="fa-solid fa-mobile-screen-button"></i> UPI</span>
+          <span title="Cards Accepted"><i class="fa-regular fa-credit-card"></i> Visa / Mastercard</span>
+          <span title="Cash on Delivery"><i class="fa-solid fa-money-bill-wave"></i> Cash on Delivery</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== MODALS & DRAWERS ==================== -->
+
+  <!-- 1. Shopping Cart Drawer -->
+  <div class="drawer-overlay" id="cartOverlay">
+    <aside class="drawer cart-drawer" id="cartDrawer" aria-label="Shopping Cart">
+      <div class="drawer-header">
+        <div class="drawer-title">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <h3>Your Glow Cart (<span id="cartDrawerCount">0</span>)</h3>
+        </div>
+        <button type="button" class="drawer-close-btn" id="closeCartBtn" aria-label="Close cart">&times;</button>
+      </div>
+
+      <div class="cart-items-wrapper" id="cartItemsContainer">
+        <!-- Rendered dynamically -->
+      </div>
+
+      <!-- Cart Summary & Checkout Footer -->
+      <div class="cart-footer" id="cartFooter">
+        <!-- Coupon Form -->
+        <div class="coupon-section">
+          <div class="coupon-input-group">
+            <input type="text" id="couponCodeInput" placeholder="Coupon Code (e.g. GLOW10)">
+            <button type="button" class="btn btn-sm btn-outline" id="applyCouponBtn">Apply</button>
+          </div>
+          <div class="coupon-status-msg" id="couponStatusMsg" style="display: none;"></div>
+          <div class="quick-coupon-hints">
+            <span>Available: <strong onclick="GlowNestApp.fillCoupon('GLOW10')">GLOW10</strong> (10% off) | <strong onclick="GlowNestApp.fillCoupon('WELCOME15')">WELCOME15</strong> (15% off)</span>
+          </div>
+        </div>
+
+        <!-- Bill Breakdown -->
+        <div class="cart-bill">
+          <div class="bill-row">
+            <span>Subtotal:</span>
+            <span id="billSubtotal">₹0</span>
+          </div>
+          <div class="bill-row discount-row" id="billDiscountRow" style="display: none;">
+            <span>Coupon Discount:</span>
+            <span id="billDiscount">-₹0</span>
+          </div>
+          <div class="bill-row">
+            <span>Delivery:</span>
+            <span class="delivery-free">FREE</span>
+          </div>
+          <div class="bill-row grand-total-row">
+            <span>Total Amount:</span>
+            <span id="billGrandTotal">₹0</span>
+          </div>
+        </div>
+
+        <button type="button" class="btn btn-primary btn-block btn-lg" id="openCheckoutModalBtn">
+          <span>Proceed to Checkout</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+
+      <!-- Empty Cart State -->
+      <div class="empty-cart-drawer" id="emptyCartState" style="display: none;">
+        <div class="empty-cart-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+        <h4>Your cart is empty</h4>
+        <p>Looks like you haven't added any glow essentials yet.</p>
+        <button type="button" class="btn btn-primary" id="startShoppingCartBtn">Start Shopping</button>
+      </div>
+    </aside>
+  </div>
+
+  <!-- 2. Wishlist Drawer -->
+  <div class="drawer-overlay" id="wishlistOverlay">
+    <aside class="drawer wishlist-drawer" id="wishlistDrawer" aria-label="Saved Wishlist">
+      <div class="drawer-header">
+        <div class="drawer-title">
+          <i class="fa-solid fa-heart" style="color: var(--primary);"></i>
+          <h3>Saved Wishlist (<span id="wishlistDrawerCount">0</span>)</h3>
+        </div>
+        <button type="button" class="drawer-close-btn" id="closeWishlistBtn" aria-label="Close wishlist">&times;</button>
+      </div>
+
+      <div class="wishlist-items-wrapper" id="wishlistItemsContainer">
+        <!-- Rendered dynamically -->
+      </div>
+
+      <!-- Empty Wishlist State -->
+      <div class="empty-cart-drawer" id="emptyWishlistState" style="display: none;">
+        <div class="empty-cart-icon"><i class="fa-regular fa-heart"></i></div>
+        <h4>Your wishlist is empty</h4>
+        <p>Save your favorite products here by clicking the heart icon on any product.</p>
+        <button type="button" class="btn btn-primary" id="startShoppingWishlistBtn">Explore Products</button>
+      </div>
+    </aside>
+  </div>
+
+  <!-- 3. Product Details Modal -->
+  <div class="modal-overlay" id="productDetailsModalOverlay">
+    <div class="modal product-details-modal" id="productDetailsModal">
+      <button type="button" class="modal-close-btn" id="closeProductDetailsBtn" aria-label="Close product details">&times;</button>
+      
+      <div class="product-details-content" id="productDetailsBody">
+        <!-- Injected dynamically by GlowNestApp.viewProductDetails(id) -->
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. Add / Edit Product Modal -->
+  <div class="modal-overlay" id="productFormModalOverlay">
+    <div class="modal product-form-modal" id="productFormModal">
+      <button type="button" class="modal-close-btn" id="closeProductFormBtn" aria-label="Close product form">&times;</button>
+      
+      <div class="modal-header">
+        <h3 id="productFormModalTitle"><i class="fa-solid fa-plus-circle"></i> Add New Product</h3>
+        <p>Fill in product details to expand your catalog. Stored in your browser's localStorage.</p>
+      </div>
+
+      <form id="productCrudForm" class="product-crud-form">
+        <!-- Hidden input for edit mode -->
+        <input type="hidden" id="crudProductId" value="">
+
+        <div class="form-grid">
+          <!-- Product Name -->
+          <div class="form-group full-width">
+            <label for="crudProductName">Product Name *</label>
+            <input type="text" id="crudProductName" required placeholder="e.g. GlowNest Vitamin C Brightening Serum">
+          </div>
+
+          <!-- Category -->
+          <div class="form-group">
+            <label for="crudCategory">Category *</label>
+            <select id="crudCategory" required>
+              <option value="Skincare">Skincare</option>
+              <option value="Makeup">Makeup</option>
+              <option value="Hair Care">Hair Care</option>
+              <option value="Body Care">Body Care</option>
+              <option value="Combos">GlowNest Combos</option>
+            </select>
+          </div>
+
+          <!-- Sub-Category -->
+          <div class="form-group">
+            <label for="crudSubCategory">Sub-Category *</label>
+            <input type="text" id="crudSubCategory" required placeholder="e.g. Serums, Face Wash, Sunscreen">
+          </div>
+
+          <!-- Original Price -->
+          <div class="form-group">
+            <label for="crudOriginalPrice">Original Price (₹) *</label>
+            <input type="number" id="crudOriginalPrice" min="1" required placeholder="e.g. 600">
+          </div>
+
+          <!-- Discount % -->
+          <div class="form-group">
+            <label for="crudDiscountPercent">Discount (%) *</label>
+            <input type="number" id="crudDiscountPercent" min="0" max="90" value="10" required placeholder="e.g. 10">
+          </div>
+
+          <!-- Auto Calculated Display (Requirement 6) -->
+          <div class="form-group full-width auto-calculated-box">
+            <span class="calc-label">Calculated Final Price:</span>
+            <div class="calc-values">
+              <span class="final-price-preview" id="crudDiscountedPricePreview">₹540</span>
+              <span class="discount-badge-preview" id="crudDiscountBadgePreview">10% OFF</span>
+              <small class="calc-note">(Automatically calculated based on Original Price & Discount %)</small>
+            </div>
+          </div>
+
+          <!-- Product Image Upload -->
+          <div class="form-group full-width">
+            <label for="crudImageFile">Product Image Upload *</label>
+            <div class="image-upload-wrapper">
+              <input type="file" id="crudImageFile" accept="image/*">
+              <div class="image-upload-dropzone" id="imageUploadDropzone">
+                <i class="fa-solid fa-cloud-arrow-up"></i>
+                <p>Click or drag to upload product image</p>
+                <small>PNG, JPG, WEBP up to 4MB (Stored in browser storage)</small>
+              </div>
+              <!-- Preview thumbnail -->
+              <div class="image-preview-container" id="imagePreviewContainer" style="display: none;">
+                <img id="imageUploadPreview" src="" alt="Product preview">
+                <button type="button" class="btn-remove-preview" id="removeImagePreviewBtn" title="Change image">&times;</button>
+              </div>
+              <input type="hidden" id="crudImageUrl" value="">
+            </div>
+          </div>
+
+          <!-- Product Description -->
+          <div class="form-group full-width">
+            <label for="crudDescription">Product Description *</label>
+            <textarea id="crudDescription" rows="3" required placeholder="Short captivating summary of what makes this product special..."></textarea>
+          </div>
+
+          <!-- Benefits -->
+          <div class="form-group full-width">
+            <label for="crudBenefits">Product Benefits (comma-separated)</label>
+            <input type="text" id="crudBenefits" placeholder="e.g. Fades dark spots, Boosts collagen, Protects moisture barrier">
+          </div>
+
+          <!-- Ingredients -->
+          <div class="form-group full-width">
+            <label for="crudIngredients">Key Ingredients</label>
+            <input type="text" id="crudIngredients" placeholder="e.g. 10% Pure Vitamin C, Hyaluronic Acid, Ferulic Acid">
+          </div>
+
+          <!-- Skin Type -->
+          <div class="form-group">
+            <label for="crudSkinType">Suitable Skin Type</label>
+            <select id="crudSkinType">
+              <option value="All Skin Types">All Skin Types</option>
+              <option value="Oily / Acne-Prone">Oily / Acne-Prone</option>
+              <option value="Dry / Dehydrated">Dry / Dehydrated</option>
+              <option value="Sensitive">Sensitive</option>
+              <option value="Normal to Combination">Normal to Combination</option>
+            </select>
+          </div>
+
+          <!-- Rating -->
+          <div class="form-group">
+            <label for="crudRating">Rating (1 to 5)</label>
+            <input type="number" id="crudRating" min="1" max="5" step="0.1" value="4.8">
+          </div>
+
+          <!-- Stock Quantity -->
+          <div class="form-group">
+            <label for="crudStock">Stock Quantity *</label>
+            <input type="number" id="crudStock" min="1" value="50" required>
+          </div>
+
+          <!-- Best Seller Toggle -->
+          <div class="form-group checkbox-group">
+            <label>
+              <input type="checkbox" id="crudIsBestSeller">
+              <span>Mark as Best Seller</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="modal-actions">
+          <button type="button" class="btn btn-outline" id="cancelProductCrudBtn">Cancel</button>
+          <button type="submit" class="btn btn-primary" id="saveProductCrudBtn">
+            <i class="fa-solid fa-check"></i> Save Product
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- 5. Delete Product Confirmation Modal -->
+  <div class="modal-overlay" id="deleteConfirmModalOverlay">
+    <div class="modal delete-confirm-modal" id="deleteConfirmModal">
+      <div class="delete-icon-box">
+        <i class="fa-solid fa-triangle-exclamation"></i>
+      </div>
+      <h3>Are you sure you want to delete this product?</h3>
+      <p id="deleteProductNameText">This action will remove the product from the shop catalog and localStorage.</p>
+      
+      <div class="modal-actions justify-center">
+        <button type="button" class="btn btn-outline" id="cancelDeleteBtn">Cancel</button>
+        <button type="button" class="btn btn-danger" id="confirmDeleteBtn">Delete Product</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6. Checkout Modal -->
+  <div class="modal-overlay" id="checkoutModalOverlay">
+    <div class="modal checkout-modal" id="checkoutModal">
+      <button type="button" class="modal-close-btn" id="closeCheckoutBtn" aria-label="Close checkout">&times;</button>
+      
+      <div class="modal-header">
+        <h3><i class="fa-solid fa-shield-heart"></i> Secure Checkout</h3>
+        <p>Complete your delivery and payment details to place your GlowNest order.</p>
+      </div>
+
+      <div class="checkout-grid">
+        <!-- Form Details -->
+        <form id="checkoutForm" class="checkout-form">
+          <h4 class="checkout-subtitle">1. Shipping Information</h4>
+          <div class="form-grid">
+            <div class="form-group full-width">
+              <label for="checkoutName">Full Name *</label>
+              <input type="text" id="checkoutName" required placeholder="e.g. Diya Sen">
+            </div>
+
+            <div class="form-group">
+              <label for="checkoutEmail">Email Address *</label>
+              <input type="email" id="checkoutEmail" required placeholder="e.g. diya@example.com">
+            </div>
+
+            <div class="form-group">
+              <label for="checkoutMobile">Mobile Number *</label>
+              <input type="tel" id="checkoutMobile" required placeholder="e.g. 9876543210" pattern="[0-9]{10}">
+            </div>
+
+            <div class="form-group full-width">
+              <label for="checkoutAddress">Delivery Address *</label>
+              <input type="text" id="checkoutAddress" required placeholder="Flat/House No., Street name, Landmark">
+            </div>
+
+            <div class="form-group">
+              <label for="checkoutCity">City *</label>
+              <input type="text" id="checkoutCity" required placeholder="e.g. Mumbai">
+            </div>
+
+            <div class="form-group">
+              <label for="checkoutState">State *</label>
+              <input type="text" id="checkoutState" required placeholder="e.g. Maharashtra">
+            </div>
+
+            <div class="form-group">
+              <label for="checkoutPincode">Pincode *</label>
+              <input type="text" id="checkoutPincode" required placeholder="e.g. 400001" pattern="[0-9]{6}">
+            </div>
+          </div>
+
+          <h4 class="checkout-subtitle" style="margin-top: 24px;">2. Payment Method</h4>
+          <div class="payment-options">
+            <label class="payment-option-card">
+              <input type="radio" name="paymentMethod" value="UPI" checked>
+              <div class="option-details">
+                <strong><i class="fa-solid fa-mobile-screen-button"></i> Instant UPI</strong>
+                <span>Google Pay, PhonePe, Paytm, BHIM</span>
+              </div>
+            </label>
+
+            <label class="payment-option-card">
+              <input type="radio" name="paymentMethod" value="Card">
+              <div class="option-details">
+                <strong><i class="fa-regular fa-credit-card"></i> Credit / Debit Card</strong>
+                <span>Visa, Mastercard, RuPay</span>
+              </div>
+            </label>
+
+            <label class="payment-option-card">
+              <input type="radio" name="paymentMethod" value="COD">
+              <div class="option-details">
+                <strong><i class="fa-solid fa-truck"></i> Cash on Delivery (COD)</strong>
+                <span>Pay securely when your package arrives</span>
+              </div>
+            </label>
+          </div>
+
+          <div class="checkout-submit-area">
+            <button type="submit" class="btn btn-primary btn-block btn-lg" id="placeOrderBtn">
+              <i class="fa-solid fa-lock"></i> Place Order (<span id="checkoutTotalPayable">₹0</span>)
+            </button>
+          </div>
+        </form>
+
+        <!-- Order Summary Column -->
+        <div class="checkout-summary-column">
+          <h4>Order Summary</h4>
+          <div class="checkout-items-list" id="checkoutItemsList">
+            <!-- Populated dynamically -->
+          </div>
+          <div class="checkout-totals">
+            <div class="bill-row">
+              <span>Items Subtotal:</span>
+              <span id="checkoutSubtotal">₹0</span>
+            </div>
+            <div class="bill-row discount-row" id="checkoutDiscountRow" style="display: none;">
+              <span>Applied Discount:</span>
+              <span id="checkoutDiscount">-₹0</span>
+            </div>
+            <div class="bill-row">
+              <span>Delivery Fee:</span>
+              <span class="delivery-free">FREE</span>
+            </div>
+            <hr class="summary-divider">
+            <div class="bill-row grand-total-row">
+              <span>Total Payable:</span>
+              <span id="checkoutGrandTotal">₹0</span>
+            </div>
+          </div>
+
+          <div class="checkout-guarantee">
+            <i class="fa-solid fa-shield-check"></i>
+            <div>
+              <strong>100% Secure Checkout</strong>
+              <p>Safe payment processing for academic demonstration.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 7. Order Confirmation / Success Modal -->
+  <div class="modal-overlay" id="orderSuccessModalOverlay">
+    <div class="modal order-success-modal" id="orderSuccessModal">
+      <div class="success-icon-badge">
+        <i class="fa-solid fa-check"></i>
+      </div>
+      <h2>Thank you for shopping with GlowNest!</h2>
+      <p class="success-subtitle">Your order has been placed successfully. Get ready for your natural glow!</p>
+      
+      <div class="order-summary-box" id="orderSuccessDetails">
+        <!-- Populated dynamically: Order ID, Summary, Delivery Timeline -->
+      </div>
+
+      <div class="modal-actions justify-center">
+        <button type="button" class="btn btn-primary btn-lg" id="continueShoppingBtn">
+          Continue Shopping
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 8. Beauty Tip Article Reader Modal -->
+  <div class="modal-overlay" id="articleModalOverlay">
+    <div class="modal article-reader-modal" id="articleReaderModal">
+      <button type="button" class="modal-close-btn" id="closeArticleModalBtn" aria-label="Close article">&times;</button>
+      <div class="article-reader-content" id="articleReaderContent">
+        <!-- Injected dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Box -->
+  <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+  <!-- Main Application Script -->
+  <script src="script.js"></script>
+</body>
+</html>
